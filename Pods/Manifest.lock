@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.9.1)
+  - FacebookSDK (6.0.0):
+    - FacebookSDK/CoreKit (= 6.0.0)
+    - FacebookSDK/MarketingKit (= 6.0.0)
+  - FacebookSDK/CoreKit (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FacebookSDK/MarketingKit (6.0.0):
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit (~> 6.0.0)
+  - FBSDKCoreKit (6.0.0):
+    - FBSDKCoreKit/Basics (= 6.0.0)
+    - FBSDKCoreKit/Core (= 6.0.0)
+  - FBSDKCoreKit/Basics (6.0.0)
+  - FBSDKCoreKit/Core (6.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.0.0):
+    - FBSDKLoginKit/Login (= 6.0.0)
+  - FBSDKLoginKit/Login (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FBSDKMarketingKit (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FBSDKShareKit (6.0.0):
+    - FBSDKShareKit/Share (= 6.0.0)
+  - FBSDKShareKit/Share (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FacebookSDK
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FacebookSDK
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - FBSDKShareKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FacebookSDK: c9c27c7d3c0fc189fab6b2f735b3a97b83fbe6e3
+  FBSDKCoreKit: fe738b172590e622c86735b45e20d196848b54df
+  FBSDKLoginKit: fa57df1b967fe0e147b25bede6ea4e9cdf4d64be
+  FBSDKMarketingKit: 23dc92210340019f88e9fc1edbbc8c1ec43914b3
+  FBSDKShareKit: 210dcda2603042cf73f31983fc99df4dac06f1d8
+
+PODFILE CHECKSUM: b87c89fad6513333035843a9302673755d2a38ba
+
+COCOAPODS: 1.8.4
